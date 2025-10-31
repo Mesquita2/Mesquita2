@@ -12,17 +12,17 @@
 
 ---
 
-### 🚀 Sobre mim
+### Sobre mim
 Sou apaixonado por tecnologia e análise de dados.  
 Atualmente trabalho em projetos que envolvem automações, integração com Google Drive e desenvolvimento web com Django e Streamlit.  
 Fazendo Pós em IA
 
 ---
 
-### ⚙️ Tecnologias e Ferramentas
+### Tecnologias e Ferramentas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,streamlit,js,html,css,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,django,streamlit,docker,js,html,css,git,github,vscode" />
 </p>
 
 ---
@@ -37,7 +37,7 @@ Fazendo Pós em IA
 
 ---
 
-### 📈 Estatísticas do GitHub
+### Estatísticas do GitHub
 
 <p align="center">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Mesquita2&show_icons=true&theme=tokyonight" />
