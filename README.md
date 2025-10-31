@@ -34,15 +34,7 @@ Fazendo Pós em IA
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mesquita2&layout=compact&langs_count=7&theme=tokyonight" />
 </p>
 
----
-
-### 🐍 Cobrinha das Contribuições
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Mesquita2/Mesquita2/output/github-contribution-grid-snake.svg" />
-</p>
-
 
 ---
-
-⭐️ *Inspirado em projetos de automação, dados e IA — sempre aprendendo algo novo!*
+  
+  *Inspirado em projetos de automação, dados e IA — sempre aprendendo algo novo!*
