@@ -39,7 +39,8 @@ Fazendo Pós em IA
 ### 🐍 Cobrinha das Contribuições
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Mesquita2/Mesquita2/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Mesquita2/Mesquita2/main/dist/github-contribution-grid-snake.svg
+" />
 </p>
 
 ---
