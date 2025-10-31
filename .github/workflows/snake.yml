@@ -19,8 +19,8 @@ jobs:
           github_user_name: Mesquita2
           outputs: dist/github-contribution-grid-snake.svg
 
-      # 🔧 Cria a branch 'output' se ela ainda não existir
-      - name: Garante que a branch 'output' existe
+      # 🔧 Garante que a branch 'output' existe
+      - name: Cria branch 'output' se não existir
         run: |
           git fetch origin
           if ! git ls-remote --exit-code origin output; then
@@ -32,7 +32,7 @@ jobs:
             git push origin output
           fi
 
-      # 🚀 Publica a cobrinha no branch 'output'
+      # 🚀 Publica o SVG no branch 'output'
       - name: Publica o SVG no branch 'output'
         uses: crazy-max/ghaction-github-pages@v4
         with:
