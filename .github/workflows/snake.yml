@@ -2,8 +2,8 @@ name: generate-snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # roda todo dia à meia-noite
-  workflow_dispatch:      # permite rodar manualmente
+    - cron: "0 0 * * *"  # Roda todo dia à meia-noite
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,17 +13,25 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: Gera a cobrinha SVG (fundo transparente)
+      - name: Gera a cobrinha (SVG)
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: Mesquita2  # <-- teu usuário exato
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-          color_snake: "#00FFAA"                  # cor da cobrinha (pode trocar)
-          color_dots: "#B5B5B5"                   
-          transparent_background: true            
+          github_user_name: Mesquita2
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Publica o arquivo no branch "output"
+      - name: Cria branch output se não existir
+        run: |
+          git fetch
+          if ! git show-ref --verify --quiet refs/heads/output; then
+            git checkout --orphan output
+            git rm -rf .
+            echo "Inicializando branch output" > README.md
+            git add README.md
+            git commit -m "Cria branch output"
+            git push origin output
+          fi
+
+      - name: Publica a cobrinha no branch "output"
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
