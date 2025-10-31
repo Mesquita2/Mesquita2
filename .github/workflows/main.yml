@@ -1,37 +1,44 @@
 name: generate animation
 
 on:
-  # run automatically every 24 hours
   schedule:
     - cron: "0 */24 * * *" 
-  
-  # allows to manually run the job at any time
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
     branches:
-    - master
-    
+      - master
+
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # gera a cobrinha com fundo transparente e azul
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # gera versão light (azul, transparente)
+      - name: generate light SVG
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#1E90FF"        # azul DodgerBlue
-          transparent_background: true  # fundo transparente
-          
+          color_snake: "#1E90FF"
+          transparent_background: true
+
+      # gera versão dark (azul, transparente)
+      - name: generate dark SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake-dark.svg
+          color_snake: "#1E90FF"
+          transparent_background: true
+
       # publica no branch 'output'
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
