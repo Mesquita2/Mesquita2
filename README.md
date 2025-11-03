@@ -2,10 +2,10 @@
 <h3 align="center">💻 Desenvolvedor Júnior | 📊 Analista de Dados</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lucas-mesquita-da-silva" target="_blank">
+  <a href="https://www.linkedin.com/in/lucas-mesquita-da-silva-722343264/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white" />
   </a>
-  <a href="mailto:lucas@email.com">
+  <a href="mailto:lmesquistas@gmail.com">
     <img src="https://img.shields.io/badge/-Email-red?style=flat&logo=Gmail&logoColor=white" />
   </a>
 </p>
