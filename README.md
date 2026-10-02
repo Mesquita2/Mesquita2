@@ -16,18 +16,17 @@
 
 ---
 
-### 🧑‍💻 Sobre mim
+###  Sobre mim
 
-Trabalho com tecnologia no ensino superior, desenvolvendo aplicações web, automações e análises de dados que resolvem problemas reais do dia a dia acadêmico e administrativo.
+Trabalho com tecnologia, desenvolvendo aplicações web, automações e análises de dados que resolvem problemas reais do dia a dia.
 
-- 🏫 Atuo no **iCEV** com desenvolvimento web, bancos de dados, CRM e integrações
-- 🎓 Fazendo **pós-graduação em IA**
-- 🌱 Estudando **MLOps, visão computacional e NLP**
-- 💬 Pode falar comigo sobre Python, dados, Django, Streamlit e IA aplicada à educação
+-  Fazendo **pós-graduação em IA**
+-  Estudando **MLOps, visão computacional e NLP**
+-  Pode falar comigo sobre Python, dados, Django, Streamlit e IA aplicada à educação
 
 ---
 
-### 🛠️ Tecnologias
+###  Tecnologias
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,fastapi,sklearn,pytorch,mysql,postgres,docker,linux,git,github,vscode,html,css,js" />
@@ -42,7 +41,7 @@ Trabalho com tecnologia no ensino superior, desenvolvendo aplicações web, auto
 
 ---
 
-### 📊 Estatísticas
+###  Estatísticas
 
 <p align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=Mesquita2&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
@@ -55,7 +54,7 @@ Trabalho com tecnologia no ensino superior, desenvolvendo aplicações web, auto
 
 ---
 
-### 🐍 Contribuições
+###  Contribuições
 
 <p align="center">
   <picture>
